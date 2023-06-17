@@ -1,4 +1,3 @@
-[TOC]
 ## 一、概述
 StarRocks是一个开源的分布式OLAP（在线分析处理）数据库，旨在提供高性能、低延迟的数据分析和查询能力。它最初由中国的猎豹移动公司（Cheetah Mobile）开发，并于2016年开源。
 
@@ -18,13 +17,13 @@ StarRocks主要特点和功能包括：
 
 总的来说，StarRocks是一个面向OLAP场景的高性能分布式数据库，通过列式存储、多维数据模型和高性能查询引擎等特性，提供快速、可扩展的数据分析和查询能力。它广泛应用于大数据分析、实时报表、数据仪表盘等场景。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/cda0c214ac7b49598d7ef262fd272623.png)
+![输入图片说明](images/1.png)
 想了解更多关于 StarRocks 可阅读我以下几篇文章：
 - [大数据Hadoop之——DorisDB介绍与环境部署（StarRocks）](https://www.cnblogs.com/liugp/p/16513501.html)
 - [大数据Hadoop之——DorisDB核心概念介绍与简单使用（StarRocks）](https://www.cnblogs.com/liugp/p/16515271.html)
 
 从 3.0 版本开始，StarRocks 支持新的共享数据架构，可以提供更好的可扩展性和更低的成本。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/224d80b5138b454cba1458c23e44345f.png)
+![输入图片说明](images/2.png)
 
 ## 二、前期准备
 ### 1）部署 docker
@@ -441,7 +440,7 @@ docker-compose -f docker-compose.yaml -p=sr ps
 # 卸载
 docker-compose -f docker-compose.yaml -p=sr down
 ```
-![在这里插入图片描述](https://img-blog.csdnimg.cn/e4cc8fe4cc304460a706baa7f818404b.png)
+![输入图片说明](images/3.png)
 ## 五、简单测试验证
 
 ```bash
@@ -451,7 +450,7 @@ docker-compose -f docker-compose.yaml -p=sr ps
 
 web：`http://ip:port`
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/14d7dff75ebe4ef3818144e122d9d9da.png)
+![输入图片说明](images/4.png)
 ## 六、常用的 StarRocks 客户端命令
 ### 1）服务启停
 
