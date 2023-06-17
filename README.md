@@ -19,8 +19,8 @@ StarRocks主要特点和功能包括：
 
 ![输入图片说明](images/1.png)
 想了解更多关于 StarRocks 可阅读我以下几篇文章：
-- [大数据Hadoop之——DorisDB介绍与环境部署（StarRocks）](https://www.cnblogs.com/liugp/p/16513501.html)
-- [大数据Hadoop之——DorisDB核心概念介绍与简单使用（StarRocks）](https://www.cnblogs.com/liugp/p/16515271.html)
+- [大数据Hadoop之——DorisDB介绍与环境部署（StarRocks）](https://mp.weixin.qq.com/s?__biz=MzI3MDM5NjgwNg==&mid=2247485136&idx=1&sn=9001b451eb89737f2245779b31c2a324&chksm=ead0fa39dda7732f5c3cae5912c28c1e57fc15cd4c7bf27d80ff94148bb8c5faa3e896e7d8a9#rd)
+- [大数据Hadoop之——DorisDB核心概念介绍与简单使用（StarRocks）](https://mp.weixin.qq.com/s?__biz=MzI3MDM5NjgwNg==&mid=2247485152&idx=1&sn=29cbbbddc1e0a6cf5af5c2702d495910&chksm=ead0fa09dda7731f764b8316fc7931d7f9c8ddf130626159a8583cd546d7c9df0ecca83e633a#rd)
 
 从 3.0 版本开始，StarRocks 支持新的共享数据架构，可以提供更好的可扩展性和更低的成本。
 ![输入图片说明](images/2.png)
@@ -494,4 +494,4 @@ SHOW PROC "/brokers"\G
 ```
 到此 通过 docker-compose 快速部署 StarRocks 保姆级教程就结束了，后续会持续更新相关技术类文章，有任何疑问欢迎关注我公众号 **`大数据与云原生技术分享`** 加群交流或私信沟通，如本篇文章对您有所帮助，麻烦帮忙一键三连（**点赞、转发、收藏**）~
 
-![](https://img2023.cnblogs.com/blog/1601821/202306/1601821-20230612215809135-427251393.png)
+![输入图片说明](images/wx.png)
